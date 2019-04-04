@@ -1,0 +1,39 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F6FA;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:40px;
+}
+
+h6{
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.trash{
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+}
+.count, .contact{
+  display: flex;
+  background-color: #FFFFFF;
+  /* border: 1px solid #DADADA; */
+  border-top: 1px solid #DADADA;
+  border-right: 1px solid #DADADA;
+  border-left: 1px solid #DADADA;
+  align-items: center;
+  padding: 15px;
+  width: 60vw;
+}
+.contact:last-of-type{
+  border-bottom: 1px solid #DADADA;
+}
+.avatar{
+  height: 70px;
+  border-radius: 50%;
+  margin: 15px;
+}
